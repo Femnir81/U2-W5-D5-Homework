@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+#table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    margin: 5rem auto;
+}
+
+.card-container {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: cadetblue;
+}
+
+.card {
+    font-size: 70px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+.selecting {
+    background-color: red;
+}
+
+.selected {
+background-color: black;
+font-size: 0px;
+}
